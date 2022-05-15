@@ -143,5 +143,6 @@ int main()
 {
     jogo_completo();
     display_board();
+    cout << "O jogo acabou, o jogador " << turno << " ganhou, parabéns!";
     return 0;
 }
